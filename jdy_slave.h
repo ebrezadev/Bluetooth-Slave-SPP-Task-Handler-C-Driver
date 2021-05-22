@@ -8,6 +8,7 @@ enum commands {VERSION, RESET, DISCONNECT, MAC_REPORT, PIN_REPORT, PIN_CHANGE, B
 
 /*IMPORTANT: the first predefined task KEY, all other keys are incremental values starting from TASK_COMMAND_STARTER. master must send these keys which correspond to different tasks*/
 #define TASK_COMMAND_STARTER                0X10        
+#define NUMBER_OF_TASKS                     4       /*define number of tasks, for example 4*/
 
 #define DEFAULT_BAUD_RATE_INDEX             0
 #define NUMBER_OF_BAUD_RATES                6
