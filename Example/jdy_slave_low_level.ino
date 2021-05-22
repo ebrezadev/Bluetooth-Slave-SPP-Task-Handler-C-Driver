@@ -2,7 +2,7 @@
 /*version 1.0*/
 /*Reza Ebrahimi https://github.com/ebrezadev */
 #include "jdy_slave.h"
-#include <AltSoftSerial.h>
+#include <AltSoftSerial.h>        /*using soft serial for bluetooth serial port*/
 
 AltSoftSerial altSerial;        /*RX, TX connected to BT module*/
 
