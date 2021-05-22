@@ -5,8 +5,6 @@
 
 enum tasks {TASK_0, TASK_1, TASK_2, TASK_3};       /*fill this with desired task names, preferably TASK_0, TASK_1 and so on. filled with 4 tasks as ann example*/
 
-#define NUMBER_OF_TASKS          4       /*define number of tasks, for example 4*/
-
 /*fill switch statement tasks with desired tasks*/
 void task_switcher(uint8_t index)
 {
