@@ -11,6 +11,7 @@ Any resemblance to pre-existing code is unintentional.
 ## GENERAL INFORMATION
 
 JDY-31 SPP bluetooth module, otherwise known as SPP-C, is a bluetooth slave module based on BK3231S Bluetooth SoC by Beken. It supports a total of 8 AT Commands:
+
 AT+VERSION
 
 AT+RESET
